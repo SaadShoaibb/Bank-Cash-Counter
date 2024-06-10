@@ -266,6 +266,9 @@ int main() {
 
 	int token = 1; // Starting token number
 
+	cout << "\t\t\t  ************************ Bank Cash Counter ************************" << endl;
+	cout << "\t\t\t                         Welcome To Saad's Bank " << endl << endl;
+
 	while (true) {
 		cout << "1. New customer\n2. Serve customer from Counter 1\n3. Serve customer from Counter 2\n4. Exit" << endl;
 		int choice;
@@ -327,6 +330,7 @@ int main() {
 			}
 		}
 		else if (choice == 4) {
+			cout << "We hope to see you again!, Have a Nice day!"<<endl;
 			break;
 		}
 		else {
